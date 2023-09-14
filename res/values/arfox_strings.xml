@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024-2025 The ArfoxOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="arfox_title">Arfox Settings</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    
+    <!-- Sub category -->
+    <string name="general_category">General</string>
+
+</resources>
