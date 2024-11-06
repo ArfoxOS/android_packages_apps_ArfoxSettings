@@ -13,6 +13,16 @@
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+
+    <!-- Categories -->
+    <string name="arfox_simulation_title">Simulation</string>
+    <string name="arfox_simulation_summary">Simulate apps and behaviors</string>
+    <string name="arfox_interface_title">Interface</string>
+    <string name="arfox_interface_summary">Customize the look and feel</string>
+    <string name="arfox_system_options_title">System Options</string>
+    <string name="arfox_system_options_summary">Tweak system settings</string>
+    <string name="arfox_extensions_title">Extensions</string>
+    <string name="arfox_extensions_summary">Manage your extensions</string>
     
     <!-- Sub category -->
     <string name="general_category">General</string>

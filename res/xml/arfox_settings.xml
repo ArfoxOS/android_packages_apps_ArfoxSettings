@@ -8,4 +8,32 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/arfox_title" >
 
+    <Preference
+        android:key="arfox_interface"
+        android:title="@string/arfox_interface_title"
+        android:summary="@string/arfox_interface_summary"
+        android:icon="@drawable/ic_interface"
+    />
+
+    <Preference
+        android:key="arfox_system_options"
+        android:title="@string/arfox_system_options_title"
+        android:summary="@string/arfox_system_options_summary"
+        android:icon="@drawable/ic_system_options"
+    />
+
+    <Preference
+        android:key="arfox_simulation"
+        android:title="@string/arfox_simulation_title"
+        android:summary="@string/arfox_simulation_summary" 
+        android:icon="@drawable/ic_simulation"
+    />
+
+    <Preference
+        android:key="arfox_extensions"
+        android:title="@string/arfox_extensions_title"
+        android:summary="@string/arfox_extensions_summary"
+        android:icon="@drawable/ic_extension"
+    />
+
 </PreferenceScreen>
