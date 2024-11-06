@@ -13,7 +13,7 @@
         android:title="@string/arfox_interface_title"
         android:summary="@string/arfox_interface_summary"
         android:icon="@drawable/ic_interface"
-    />
+        android:fragment="com.arfox.settings.fragments.ui.InterfaceSettings" />
 
     <Preference
         android:key="arfox_system_options"

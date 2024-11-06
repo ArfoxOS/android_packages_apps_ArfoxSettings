@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/bootanimation_title">
+    
+    <PreferenceCategory
+        android:key="preview_category"
+        android:title="@string/preview_category_title">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:id="@+id/bootanimation_category"
+        android:key="bootanimation_category"
+        android:title="@string/bootanimation_title">
+        
+        <ListPreference
+            android:key="bootanimation_preference"
+            android:title="@string/bootanimation_title"
+            android:entries="@array/bootanimation_names"
+            android:entryValues="@array/bootanimation_values"
+            android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -5,6 +5,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string-array name="bootanimation_names">
+        <item>ArfoxOS</item>
+        <item>Minimalist</item>
+        <item>FoxYou</item>
+        <item>Fox</item>
+    </string-array>
+    <string-array name="bootanimation_values">
+        <item>arfoxos</item>
+        <item>minimalist</item>
+        <item>foxyou</item>
+        <item>fox</item>
+    </string-array>
+
     <!-- Apps list to hide from Hide developer status setting -->
     <string-array name="hide_developer_status_hidden_apps" translatable="false">
         <item>android</item>

@@ -91,4 +91,9 @@
     <!-- Sub category -->
     <string name="general_category">General</string>
 
+    <!-- Interface / Bootanimation -->
+    <string name="bootanimation_title">Boot Animation</string>
+    <string name="bootanimation_summary">Customize your bootanimation</string>
+    <string name="preview_category_title">Preview</string>
+
 </resources>
