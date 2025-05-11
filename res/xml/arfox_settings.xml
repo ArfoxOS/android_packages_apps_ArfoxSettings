@@ -20,6 +20,7 @@
         android:title="@string/arfox_system_options_title"
         android:summary="@string/arfox_system_options_summary"
         android:icon="@drawable/ic_system_options"
+        android:fragment="com.arfox.settings.fragments.system.SystemOptions" />
     />
 
     <Preference
