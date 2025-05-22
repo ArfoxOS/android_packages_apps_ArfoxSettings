@@ -96,4 +96,8 @@
     <string name="bootanimation_summary">Customize your bootanimation</string>
     <string name="preview_category_title">Preview</string>
 
+    <!-- Interface / Expressive Design -->
+    <string name="expressive_design_title">Expressive Design</string>
+    <string name="expressive_design_summary">Enable Expressive Design preview</string>
+
 </resources>
