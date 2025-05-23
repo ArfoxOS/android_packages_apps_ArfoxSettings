@@ -18,4 +18,16 @@
         android:defaultValue="false"
         android:persistent="true" />
 
+    <PreferenceCategory
+        android:key="interface_misc_settings"
+        android:title="@string/arfox_interface_misc_settings_title">
+
+        <Preference
+            android:key="more_interface_settings"
+            android:title="@string/more_interface_settings_title"
+            android:summary="@string/more_interface_settings_summary"
+            android:icon="@drawable/ic_wallpaper" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

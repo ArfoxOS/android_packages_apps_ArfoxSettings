@@ -15,6 +15,7 @@ public class InterfaceSettings extends SettingsPreferenceFragment implements Pre
 
     private static final String KEY_EXPRESSIVE_DESIGN = "expressive_design";
     private static final String PROP_EXPRESSIVE_DESIGN = "persist.sys.arfox.is_expressive_design_enabled";
+    private static final String KEY_MORE_INTERFACE = "more_interface_settings";
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -24,6 +25,17 @@ public class InterfaceSettings extends SettingsPreferenceFragment implements Pre
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference.getKey().equals(KEY_MORE_INTERFACE)) {
+            Intent intent = new Intent();
+            intent.setClassName("com.android.settings", "com.android.settings.wallpaper.WallpaperSuggestionActivity");
+            startActivity(intent);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override

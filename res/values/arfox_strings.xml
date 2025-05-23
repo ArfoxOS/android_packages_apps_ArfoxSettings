@@ -23,6 +23,7 @@
     <string name="arfox_system_options_summary">Tweak system settings</string>
     <string name="arfox_extensions_title">Extensions</string>
     <string name="arfox_extensions_summary">Manage your extensions</string>
+    <string name="arfox_interface_misc_settings_title">Miscellaneous</string>
 
     <!-- System -->
     <string name="misc_security_header">Security</string>
@@ -99,5 +100,9 @@
     <!-- Interface / Expressive Design -->
     <string name="expressive_design_title">Expressive Design</string>
     <string name="expressive_design_summary">Enable Expressive Design preview</string>
+
+    <!-- Interface / More Settings -->
+    <string name="more_interface_settings_title">More interface settings</string>
+    <string name="more_interface_settings_summary">Customize wallpaper, themes and more</string>
 
 </resources>
