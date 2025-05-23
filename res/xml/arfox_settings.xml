@@ -6,6 +6,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/arfox_title" >
 
     <Preference
@@ -31,10 +32,10 @@
     />
 
     <Preference
-        android:key="arfox_extensions"
-        android:title="@string/arfox_extensions_title"
-        android:summary="@string/arfox_extensions_summary"
+        android:key="arfox_extension_settings"
+        android:title="@string/arfox_extension_settings_title"
+        android:summary="@string/arfox_extension_settings_summary"
         android:icon="@drawable/ic_extension"
-    />
+        android:fragment="com.arfox.settings.fragments.ExtensionSettings" />
 
 </PreferenceScreen>

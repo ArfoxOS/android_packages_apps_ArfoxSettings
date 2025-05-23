@@ -21,9 +21,13 @@
     <string name="arfox_interface_summary">Customize the look and feel</string>
     <string name="arfox_system_options_title">System Options</string>
     <string name="arfox_system_options_summary">Tweak system settings</string>
-    <string name="arfox_extensions_title">Extensions</string>
-    <string name="arfox_extensions_summary">Manage your extensions</string>
     <string name="arfox_interface_misc_settings_title">Miscellaneous</string>
+    <string name="arfox_flavour_title">Arfox Flavour</string>
+    <string name="arfox_flavour_summary">Google flavoured</string>
+    <string name="arfox_flavour_summary_vanilla">Vanilla flavoured</string>
+    <string name="arfox_flavour_toast">You can\'t change flavour after the setup</string>
+    <string name="arfox_extension_settings_summary">Manage Arfox extensions and flavours</string>
+    <string name="arfox_extension_settings_title">Extensions</string>
 
     <!-- System -->
     <string name="misc_security_header">Security</string>

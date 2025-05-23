@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:key="arfox_flavour"
+        android:title="@string/arfox_flavour_title"
+        android:summary="@string/arfox_flavour_summary"
+        android:persistent="false"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen> 
