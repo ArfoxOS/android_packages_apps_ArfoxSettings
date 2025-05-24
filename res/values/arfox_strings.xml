@@ -105,6 +105,12 @@
     <string name="expressive_design_title">Expressive Design</string>
     <string name="expressive_design_summary">Enable Expressive Design preview</string>
 
+    <!-- Interface / Simulation -->
+    <string name="unlimited_gphotos_title">Unlimited Google Photos</string>
+    <string name="unlimited_gphotos_summary">Enable unlimited storage in Google Photos</string>
+    <string name="pixel_features_title">Pixel Features</string>
+    <string name="pixel_features_summary">Enable Pixel-exclusive features</string>
+
     <!-- Interface / More Settings -->
     <string name="more_interface_settings_title">More interface settings</string>
     <string name="more_interface_settings_summary">Customize wallpaper, themes and more</string>

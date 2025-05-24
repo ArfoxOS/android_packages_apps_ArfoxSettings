@@ -29,6 +29,7 @@
         android:title="@string/arfox_simulation_title"
         android:summary="@string/arfox_simulation_summary" 
         android:icon="@drawable/ic_simulation"
+        android:fragment="com.arfox.settings.fragments.SimulationSettings"
     />
 
     <Preference
