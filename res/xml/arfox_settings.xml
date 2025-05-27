@@ -10,33 +10,39 @@
     android:title="@string/arfox_title" >
 
     <Preference
-        android:key="arfox_interface"
-        android:title="@string/arfox_interface_title"
-        android:summary="@string/arfox_interface_summary"
-        android:icon="@drawable/ic_interface"
-        android:fragment="com.arfox.settings.fragments.ui.InterfaceSettings" />
+        android:key="arfox_flavour"
+        android:title="@string/arfox_flavour_title"
+        android:summary="@string/arfox_flavour_summary"
+        android:persistent="false"
+        app:iconSpaceReserved="false" />
 
-    <Preference
-        android:key="arfox_system_options"
-        android:title="@string/arfox_system_options_title"
-        android:summary="@string/arfox_system_options_summary"
-        android:icon="@drawable/ic_system_options"
-        android:fragment="com.arfox.settings.fragments.system.SystemOptions" />
-    />
+    <PreferenceCategory
+        android:key="arfox_settings_category"
+        android:title="@string/arfox_settings_header">
 
-    <Preference
-        android:key="arfox_simulation"
-        android:title="@string/arfox_simulation_title"
-        android:summary="@string/arfox_simulation_summary" 
-        android:icon="@drawable/ic_simulation"
-        android:fragment="com.arfox.settings.fragments.SimulationSettings"
-    />
+        <Preference
+            android:key="arfox_interface"
+            android:title="@string/arfox_interface_title"
+            android:summary="@string/arfox_interface_summary"
+            android:icon="@drawable/ic_interface"
+            android:fragment="com.arfox.settings.fragments.ui.InterfaceSettings" />
 
-    <Preference
-        android:key="arfox_extension_settings"
-        android:title="@string/arfox_extension_settings_title"
-        android:summary="@string/arfox_extension_settings_summary"
-        android:icon="@drawable/ic_extension"
-        android:fragment="com.arfox.settings.fragments.ExtensionSettings" />
+        <Preference
+            android:key="arfox_system_options"
+            android:title="@string/arfox_system_options_title"
+            android:summary="@string/arfox_system_options_summary"
+            android:icon="@drawable/ic_system_options"
+            android:fragment="com.arfox.settings.fragments.system.SystemOptions" />
+
+        <Preference
+            android:key="arfox_simulation"
+            android:title="@string/arfox_simulation_title"
+            android:summary="@string/arfox_simulation_summary" 
+            android:icon="@drawable/ic_simulation"
+            android:fragment="com.arfox.settings.fragments.SimulationSettings"
+        />
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>

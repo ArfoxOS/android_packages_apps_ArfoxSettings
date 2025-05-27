@@ -13,6 +13,8 @@
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+    <string name="arfox_settings_header">Settings</string>
+
 
     <!-- Categories -->
     <string name="arfox_simulation_title">Simulation</string>
@@ -26,8 +28,6 @@
     <string name="arfox_flavour_summary">Google flavoured</string>
     <string name="arfox_flavour_summary_vanilla">Vanilla flavoured</string>
     <string name="arfox_flavour_toast">You can\'t change flavour after the setup</string>
-    <string name="arfox_extension_settings_summary">Manage Arfox extensions and flavours</string>
-    <string name="arfox_extension_settings_title">Extensions</string>
 
     <!-- System -->
     <string name="misc_security_header">Security</string>
@@ -103,7 +103,7 @@
 
     <!-- Interface / Expressive Design -->
     <string name="expressive_design_title">Expressive Design</string>
-    <string name="expressive_design_summary">Enable Expressive Design preview</string>
+    <string name="expressive_design_summary">Enable an early version of A16 Settings design after a reboot</string>
 
     <!-- Interface / Simulation -->
     <string name="unlimited_gphotos_title">Unlimited Google Photos</string>
